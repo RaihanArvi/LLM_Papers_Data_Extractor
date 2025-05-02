@@ -75,23 +75,23 @@ def main():
         description="Extract structured data from markdown papers using OpenAI API."
     )
     parser.add_argument(
-        "--protocol", default=protocol_path,
+        "-p", "--protocol", default=protocol_path,
         help="Path to the protocol Excel file"
     )
     parser.add_argument(
-        "--input_dir", default=markdown_path,
+        "-i", "--input_dir", default=markdown_path,
         help="Directory containing markdown files to process"
     )
     parser.add_argument(
-        "--output", default="extracted_data.csv",
+        "-o", "--output", default="extracted_data.csv",
         help="Path for the output CSV file"
     )
     parser.add_argument(
-        "--model", default="gpt-4.1",
+        "-m", "--model", default="gpt-4.1",
         help="OpenAI model to use (e.g., gpt-4.1)"
     )
     parser.add_argument(
-        "--rate_limit_wait", type=float, default=1.0,
+        "-r", "--rate_limit_wait", type=float, default=1.0,
         help="Seconds to wait between API calls"
     )
     args = parser.parse_args()
