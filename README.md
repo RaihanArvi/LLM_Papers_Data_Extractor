@@ -1,4 +1,4 @@
-# Data Extractor
+# Papers Data Extractor
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 [![Website](https://img.shields.io/badge/Website-Raihan_Arvi-red)](https://www.raihanarvi.com)
