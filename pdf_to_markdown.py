@@ -12,13 +12,13 @@ def main():
     )
     parser.add_argument(
         "-i", "--input_folder",
-        required=True,
+        required=False,
         default=DEFAULT_INPUT_FOLDER,
         help="Path to the folder containing PDF files"
     )
     parser.add_argument(
         "-o", "--output_folder",
-        required=True,
+        required=False,
         default=DEFAULT_OUTPUT_FOLDER,
         help="Path to the folder where Markdown files will be saved"
     )
